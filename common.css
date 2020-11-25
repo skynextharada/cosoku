@@ -4062,6 +4062,36 @@ ata *[DIR="rtl"] {
 
 /* 追加エリア */
 
-.index_img{
-    
+.sub-img-box{
+    margin-bottom: 20px;
+}
+
+.sub-img{
+
+}
+
+
+#main-image{
+  margin: 0!important;
+}
+
+.main-image-slider{
+  width: 100%!important;
+  height: 420px!important;
+}
+
+.main-image-slider > ul > li{
+  width: 100vw!important;
+  height: 420px!important;
+}
+
+.main-image-slider > ul {
+  left: 0!important;
+  height: 420px!important;
+  
+}
+
+#main-image img{
+  width: 100%!important;
+  max-width: 100%!important;
 }
