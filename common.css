@@ -4063,11 +4063,11 @@ ata *[DIR="rtl"] {
 /* 追加エリア */
 
 .sub-img-box{
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .sub-img{
-
+  width: 100%;
 }
 
 
@@ -4081,17 +4081,38 @@ ata *[DIR="rtl"] {
 }
 
 .main-image-slider > ul > li{
-  width: 100vw!important;
+  width: 100%!important;
   height: 420px!important;
 }
 
 .main-image-slider > ul {
   left: 0!important;
   height: 420px!important;
-  
+  width: 100%!important;
 }
 
 #main-image img{
   width: 100%!important;
   max-width: 100%!important;
+}
+
+@media screen and (min-width: 960px){
+  #main-wrapper {
+    margin: 30px 0;
+  }
+  .two-column #secondary {
+    margin: 30px 20px 60px 0;
+}
+}
+
+@media screen and (max-width: 960px){
+  .main-image-slider,
+  .main-image-slider > ul > li,
+  .main-image-slider > ul {
+    height: 42vw!important;
+  }
+  
+  #main-image img{
+
+  }
 }
